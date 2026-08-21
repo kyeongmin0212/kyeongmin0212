@@ -82,6 +82,49 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
+### 🔹 [Imagineers-Coin](https://github.com/kyeongmin0212/Imagineers-Coin) — LSTM 암호화폐 자동매매 봇
+`SW 전공·융합동아리 AFE → 졸업작품` · 2025.03 ~ · 팀 4인 · **대표학생**
+과기정통부 SW중심대학사업 과제 산출물 (2023-0-00028)
+
+동아리 프로젝트로 시작해 졸업작품으로 발전시킨 자동매매 시스템입니다.
+
+- **LSTM 3층 + Dense**로 다음날 종가 예측 (30일 시퀀스, Grid Search 튜닝)
+- 기술지표 6종(Bollinger·RSI·MACD·ADX·ATR·EMA) + 공포탐욕지수 + 뉴스 RSS + OpenAI 시장분석
+- **트레일링 스탑**, 오더북 분석 기반 최적 매수호가 산출, 손실 종목 블랙리스트
+- `RateLimiter`·`FileLock`·지수 백오프 재시도로 24시간 무인 운영
+- 텔레그램 알림 + 웹 대시보드 (Cloudflare Tunnel 외부 공유)
+- 실거래 238건 운용 후 **한계를 직접 진단** (폴링 주기 제약, 매매 로직 중복)
+
+`Python` `TensorFlow/Keras` `PyUpbit` `OpenAI API` `Telegram Bot API`
+
+<br>
+
+## 교육 과정
+
+### 🔹 [LKELION-Code](https://github.com/kyeongmin0212/LKELION-Code) — Java 백엔드 PBL (Mission 00~10)
+`멋쟁이사자처럼 대학 14기` · 2026.04 ~ 07 · 커밋 28건 · PR 9건
+
+객체지향 → **IoC/DI 직접 구현** → Spring Boot 전환 → REST API → JPA →
+연관관계·트랜잭션 → 전역 예외 처리·FE 연동까지 단계적으로 수행.
+미션마다 브랜치를 파고 PR로 머지했습니다.
+
+`Java` `Spring Boot` `JPA` `Gradle`
+
+<br>
+
+### 🔹 KT AIVLE School 미니프로젝트 1~6차
+`2026.04 ~ 06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
+
+| 차수 | 프로젝트 | 핵심 |
+|---|---|---|
+| 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
+| 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
+| 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
+| 4차 | [BookShelf](https://github.com/owlooo/AIVLE_09_m_4th_22) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
+| 5·6차 | 도서관리시스템 | Spring Boot 백엔드 → **K8S 배포 파이프라인** (본인: OpenAI 연동) |
+
+<br>
+
 ## 개인 프로젝트
 
 ### 🔹 [ksat-gang-code](https://github.com/kyeongmin0212/ksat-gang-code) — 국내주식 백테스팅·추천 시스템
@@ -102,20 +145,6 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-### 🔹 [Imagineers-Coin](https://github.com/kyeongmin0212/Imagineers-Coin) — LSTM 암호화폐 자동매매 봇
-`2026.04 ~` · Python 2,300줄
-
-- **LSTM 3층 + Dense**로 다음날 종가 예측 (30일 시퀀스, Grid Search 튜닝)
-- 기술지표 6종(Bollinger·RSI·MACD·ADX·ATR·EMA) + 공포탐욕지수 + 뉴스 RSS + OpenAI 시장분석
-- **트레일링 스탑**, 오더북 분석 기반 최적 매수호가 산출, 손실 종목 블랙리스트
-- `RateLimiter`·`FileLock`·지수 백오프 재시도로 24시간 무인 운영
-- 텔레그램 알림 + 웹 대시보드 (Cloudflare Tunnel 외부 공유)
-- 실거래 238건 운용 후 **한계를 직접 진단** (폴링 주기 제약, 매매 로직 중복)
-
-`Python` `TensorFlow/Keras` `PyUpbit` `OpenAI API` `Telegram Bot API`
-
-<br>
-
 ### 🔹 [us-kr-stock-auto-trading](https://github.com/kyeongmin0212/us-kr-stock-auto-trading-v1) — 주식 자동매매 웹
 `2025` · React + Flask + Express
 
@@ -127,30 +156,6 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 - `PaperTradingManager` — 실계좌 없이 전략 검증하는 모의투자
 
 `React 18` `TypeScript` `Flask` `Express` `MySQL` `Firebase` `Docker` `nginx`
-
-<br>
-
-### 🔹 [LKELION-Code](https://github.com/kyeongmin0212/LKELION-Code) — Java 백엔드 PBL (Mission 00~10)
-`2026.04 ~ 07` · 커밋 28건 · PR 9건
-
-객체지향 → **IoC/DI 직접 구현** → Spring Boot 전환 → REST API → JPA →
-연관관계·트랜잭션 → 전역 예외 처리·FE 연동까지 단계적으로 수행.
-미션마다 브랜치를 파고 PR로 머지했습니다.
-
-`Java` `Spring Boot` `JPA` `Gradle`
-
-<br>
-
-## KT AIVLE School 미니프로젝트 1~6차
-`2026.04 ~ 06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
-
-| 차수 | 프로젝트 | 핵심 |
-|---|---|---|
-| 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
-| 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
-| 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
-| 4차 | [BookShelf](https://github.com/owlooo/AIVLE_09_m_4th_22) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
-| 5·6차 | 도서관리시스템 | Spring Boot 백엔드 → **K8S 배포 파이프라인** (본인: OpenAI 연동) |
 
 <br>
 
