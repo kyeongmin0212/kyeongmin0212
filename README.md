@@ -1,3 +1,4 @@
+[프로필 README.md](https://github.com/user-attachments/files/31291462/README.md)
 # 노경민 (Kyeongmin Noh)
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
@@ -5,23 +6,34 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 - 🏆 **학술대회 우수논문상** (1저자) — 2025 한국스마트미디어학회·한국전자거래학회 춘계학술대회
 - 📄 **논문 5편** — 1저자 2편 / 영문 국제학술대회 1편 / SW중심대학사업 과제 2편
-- 🤖 **LLM 애플리케이션** — RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
+- 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
 
 <br>
 
 ## Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+**LLM · AI**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Vertex_AI_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+
+**Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
+**Frontend**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+**DevOps · Cloud**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -36,7 +48,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 `KT AIVLE School 9기 AI트랙 빅프로젝트` · 2026.7~8 · 팀 6인
 
 매장 CCTV 영상과 주문 정보로 매장 상황을 분석하는 B2B 서비스.
-**AI 상담(AICC) 모듈 전체를 담당**했습니다. — 커밋 45건 (머지 제외) / +4,980 · -977
+**AI 상담(AICC) 모듈 전체를 담당**했습니다. — 커밋 45건(머지 제외) / +4,980 · −977
 
 - **Gemini Tool Calling** — 질문 유형별 Tool 분기, 자동호출 5회 제한으로 무한루프 차단
 - **정책 RAG** — 전체 나열 대신 관련 정책만 검색, 관련도 필터(margin) 적용
@@ -93,6 +105,18 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 **No-Code 전략 편집기를 직접 구현**했습니다.
 
 `React 18` `TypeScript` `Express` `Flask` `Firebase` `MySQL` `Docker` `nginx`
+
+<br>
+
+### 🔹 KT AIVLE School 미니프로젝트 1~6차
+`2026.4 ~ 6` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
+
+| 차수 | 프로젝트 | 핵심 |
+|---|---|---|
+| 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
+| 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
+| 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
+| 4~6차 | 도서관리시스템 | 기획·UI → Spring Boot 백엔드 → **K8S 배포 파이프라인** |
 
 <br>
 
