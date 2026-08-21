@@ -1,4 +1,3 @@
-[프로필 README.md](https://github.com/user-attachments/files/31290122/README.md)
 # 노경민 (Kyeongmin Noh)
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
