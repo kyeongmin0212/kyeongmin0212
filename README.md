@@ -1,4 +1,3 @@
-[프로필 README.md](https://github.com/user-attachments/files/31291462/README.md)
 # 노경민 (Kyeongmin Noh)
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
@@ -14,7 +13,6 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 **LLM · AI**
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Vertex_AI_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -23,6 +21,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
@@ -40,9 +39,9 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-## 참여 프로젝트
+## 팀 프로젝트
 
-> 팀 프로젝트는 조직 계정 소속이라 아래에 담당 범위를 함께 적었습니다.
+> 조직 계정 소속이라 아래에 담당 범위를 함께 적었습니다.
 
 ### 🔹 [AI's Eye](https://github.com/aivle-b-t24/ai-s-eye) — AICC 모듈 담당
 `KT AIVLE School 9기 AI트랙 빅프로젝트` · 2026.7~8 · 팀 6인
@@ -65,7 +64,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 `멋쟁이사자처럼 대학 14기 해커톤` · 2026.8~ · 팀 6인 (백엔드 2명 중 1명)
 
 신입 개발자를 위한 코드 온보딩 도구. 코드가 *왜* 그렇게 작성되었는지와
-*수정 시 영향 범위*를 보여줍니다. — PR 8건 / +5,800줄
+*수정 시 영향 범위*를 보여줍니다. — PR 8건 / +5,842 · −129
 
 | PR | 기능 |
 |---|---|
@@ -79,44 +78,79 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 기능마다 테스트를 동반 작성했습니다 (본인 작성 약 2,800줄).
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `tree-sitter` `Docker` `pytest`
-
 🔗 [서비스](https://codetrace-frontend.vercel.app)
 
 <br>
 
-### 🔹 [Imagineers-Coin](https://github.com/kyeongmin0212/Imagineers-Coin) — LSTM 기반 암호화폐 자동매매
-`SW 전공·융합동아리 AFE (대표)` · 2025.3~ · 과기정통부 SW중심대학사업 과제 산출물 (2023-0-00028)
+## 개인 프로젝트
 
-**논문 2편(1저자)과 학술대회 우수논문상**으로 이어진 프로젝트입니다.
+### 🔹 [ksat-gang-code](https://github.com/kyeongmin0212/ksat-gang-code) — 국내주식 백테스팅·추천 시스템
+`2026.03 ~ 05` · Python
 
-- LSTM 3층 예측 모델 — 30일 시퀀스, Grid Search 튜닝, Dropout/EarlyStopping
-- 기술지표 6종 (Bollinger·RSI·MACD·ADX·ATR·EMA) + 공포탐욕지수 + 뉴스 RSS
-- 트레일링 스탑, 손절/익절 자동화, 오더북 기반 최적 매수호가 산출
-- RateLimiter·FileLock·지수 백오프 재시도로 24시간 무인 운영
+투자 기법을 코드로 옮기고 **5년치 데이터로 백테스팅해 검증**한 뒤,
+매일 자동으로 매수 후보를 추려 텔레그램으로 알리는 시스템.
 
-`Python` `TensorFlow/Keras` `LSTM` `PyUpbit` `OpenAI API` `Telegram Bot`
+- 백테스트 5년 — **CAGR 52.95 % · 샤프 1.84 · MDD −17.45 % · 승률 76.83 %**
+  (과최적화를 감안해 실전 기대치는 CAGR 25~35 %로 보수 설정)
+- KRX에서 KOSPI·KOSDAQ 전 종목 일봉 수집 → SQLite 약 1.1GB
+- 전략 **v2 → v4 → v5 → v6** 개선, 버전별 성과를 정량 비교
+- **손실 원인 분석** 모듈로 실패 거래를 유형별 분류
+- 유튜브 자막(VTT) 파싱으로 기법을 규칙화하는 파이프라인
+- Streamlit 4페이지 대시보드 — 사후 1/5/10/20일 수익률 + **KOSPI 대비 알파** 추적
 
-<br>
-
-### 🔹 [auto-trading-website](https://github.com/kyeongmin0212/auto-trading-website) — 자동매매 웹 서비스
-`개인 프로젝트` · 2025
-
-전략을 코드 없이 만들 수 있는 자동매매 플랫폼. 논문에서 제안한
-**No-Code 전략 편집기를 직접 구현**했습니다.
-
-`React 18` `TypeScript` `Express` `Flask` `Firebase` `MySQL` `Docker` `nginx`
+`Python` `SQLite` `pandas` `Streamlit` `Plotly` `Telegram Bot API`
 
 <br>
 
-### 🔹 KT AIVLE School 미니프로젝트 1~6차
-`2026.4 ~ 6` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
+### 🔹 [Imagineers-Coin](https://github.com/kyeongmin0212/Imagineers-Coin) — LSTM 암호화폐 자동매매 봇
+`2026.04 ~` · Python 2,300줄
+
+- **LSTM 3층 + Dense**로 다음날 종가 예측 (30일 시퀀스, Grid Search 튜닝)
+- 기술지표 6종(Bollinger·RSI·MACD·ADX·ATR·EMA) + 공포탐욕지수 + 뉴스 RSS + OpenAI 시장분석
+- **트레일링 스탑**, 오더북 분석 기반 최적 매수호가 산출, 손실 종목 블랙리스트
+- `RateLimiter`·`FileLock`·지수 백오프 재시도로 24시간 무인 운영
+- 텔레그램 알림 + 웹 대시보드 (Cloudflare Tunnel 외부 공유)
+- 실거래 238건 운용 후 **한계를 직접 진단** (폴링 주기 제약, 매매 로직 중복)
+
+`Python` `TensorFlow/Keras` `PyUpbit` `OpenAI API` `Telegram Bot API`
+
+<br>
+
+### 🔹 [us-kr-stock-auto-trading](https://github.com/kyeongmin0212/us-kr-stock-auto-trading-v1) — 주식 자동매매 웹
+`2025` · React + Flask + Express
+
+**한국투자증권(KIS) API**를 연동한 미국·국내 주식 자동매매 플랫폼.
+
+- 해외주식(나스닥/USD) 잔고·현재가·차트 조회 및 **주문 전송**, Flask REST API 20개
+- **No-Code 전략 편집기(StrategyBuilder)** — 코드 없이 조건 조합으로 전략 생성
+- **`code_executor`** — 사용자 파이썬 전략을 **AST 파싱으로 검사 후 샌드박스 실행**
+- `PaperTradingManager` — 실계좌 없이 전략 검증하는 모의투자
+
+`React 18` `TypeScript` `Flask` `Express` `MySQL` `Firebase` `Docker` `nginx`
+
+<br>
+
+### 🔹 [LKELION-Code](https://github.com/kyeongmin0212/LKELION-Code) — Java 백엔드 PBL (Mission 00~10)
+`2026.04 ~ 07` · 커밋 28건 · PR 9건
+
+객체지향 → **IoC/DI 직접 구현** → Spring Boot 전환 → REST API → JPA →
+연관관계·트랜잭션 → 전역 예외 처리·FE 연동까지 단계적으로 수행.
+미션마다 브랜치를 파고 PR로 머지했습니다.
+
+`Java` `Spring Boot` `JPA` `Gradle`
+
+<br>
+
+## KT AIVLE School 미니프로젝트 1~6차
+`2026.04 ~ 06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
 
 | 차수 | 프로젝트 | 핵심 |
 |---|---|---|
 | 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
 | 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
 | 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
-| 4~6차 | 도서관리시스템 | 기획·UI → Spring Boot 백엔드 → **K8S 배포 파이프라인** |
+| 4차 | [BookShelf](https://github.com/owlooo/AIVLE_09_m_4th_22) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
+| 5·6차 | 도서관리시스템 | Spring Boot 백엔드 → **K8S 배포 파이프라인** (본인: OpenAI 연동) |
 
 <br>
 
