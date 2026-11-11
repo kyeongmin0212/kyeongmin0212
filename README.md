@@ -5,7 +5,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 - 🏆 **SUMTECH Hackathon 2026 최우수상** (조선대학교 총장상) — SW중심대학 연합 해커톤, 10개 대학 20팀 중 상위 3팀
 - 🏆 **학술대회 우수논문상** (1저자) — 2025 한국스마트미디어학회·한국전자거래학회 춘계학술대회
-- 📄 **1저자 논문 2편**
+- 📄 **1저자 논문 2편** 
 - 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
 
 <br>
@@ -64,23 +64,6 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-### 🔹 [AI's Eye](https://github.com/aivle-b-t24/ai-s-eye) — AICC 모듈 담당
-`KT AIVLE School 9기 AI트랙 빅프로젝트` · 2026.7~8 · 팀 5인
-
-매장 CCTV 영상과 주문 정보로 매장 상황을 분석하는 B2B 서비스.
-**AI 상담(AICC) 모듈 전체를 담당**했습니다. — 커밋 45건(머지 제외) / +4,597 · −594
-
-- **Gemini Tool Calling** — 질문 유형별 Tool 분기, 자동호출 5회 제한으로 무한루프 차단
-- **정책 RAG** — 전체 나열 대신 관련 정책만 검색, 관련도 필터(margin) 적용
-- **환각 방지** — 지점명·동이름 고정, evidence 숫자만 사용, 빈 데이터면 분석 생략
-- **레이트리밋 대응** — Vertex AI 임베딩 분당 5회 제한 병목을 무료티어 키 분리로 해소
-- **멀티턴 대화** — 이전 history 전달로 지시대명사 맥락 유지
-- **상권 분석** — SGIS 연동으로 혼잡 원인 추정
-
-`FastAPI` `Vertex AI (Gemini)` `RAG` `PostgreSQL` `Docker` `GCP`
-
-<br>
-
 ### 🔹 [CodeTrace](https://github.com/CodeTrace-app/codetrace-backend) — 백엔드 담당 (GitHub 연동·이력 수집·LLM 요약·PR 경고 봇)
 `멋쟁이사자처럼 대학 14기 해커톤` · 2026.08 (약 2주) · 팀 6인 (백엔드 2명 중 1명)
 
@@ -102,6 +85,23 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `tree-sitter` `Docker` `pytest`
 🔗 [서비스](https://codetrace-frontend.vercel.app)
+
+<br>
+
+### 🔹 [AI's Eye](https://github.com/aivle-b-t24/ai-s-eye) — AICC 모듈 담당
+`KT AIVLE School 9기 AI트랙 빅프로젝트` · 2026.07~08 · 팀 5인
+
+매장 CCTV 영상과 주문 정보로 매장 상황을 분석하는 B2B 서비스.
+**AI 상담(AICC) 모듈 전체를 담당**했습니다. — 커밋 45건(머지 제외) / +4,597 · −594
+
+- **Gemini Tool Calling** — 질문 유형별 Tool 분기, 자동호출 5회 제한으로 무한루프 차단
+- **정책 RAG** — 전체 나열 대신 관련 정책만 검색, 관련도 필터(margin) 적용
+- **환각 방지** — 지점명·동이름 고정, evidence 숫자만 사용, 빈 데이터면 분석 생략
+- **레이트리밋 대응** — Vertex AI 임베딩 분당 5회 제한 병목을 무료티어 키 분리로 해소
+- **멀티턴 대화** — 이전 history 전달로 지시대명사 맥락 유지
+- **상권 분석** — SGIS 연동으로 혼잡 원인 추정
+
+`FastAPI` `Vertex AI (Gemini)` `RAG` `PostgreSQL` `Docker` `GCP`
 
 <br>
 
@@ -127,7 +127,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 ## 교육 과정
 
 ### 🔹 [LKELION-Code](https://github.com/kyeongmin0212/LKELION-Code) — Java 백엔드 PBL (Mission 00~10)
-`멋쟁이사자처럼 대학 14기` · 2026.04 ~ 07 · 커밋 28건 · PR 9건
+`멋쟁이사자처럼 대학 14기` · 2026.04~07 · 커밋 28건 · PR 9건
 
 객체지향 → **IoC/DI 직접 구현** → Spring Boot 전환 → REST API → JPA →
 연관관계·트랜잭션 → 전역 예외 처리·FE 연동까지 단계적으로 수행.
@@ -138,7 +138,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 <br>
 
 ### 🔹 KT AIVLE School 미니프로젝트 1~6차
-`2026.04 ~ 06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
+`2026.04~06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
 
 | 차수 | 프로젝트 | 핵심 |
 |---|---|---|
