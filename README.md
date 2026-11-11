@@ -4,7 +4,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 컴퓨터공학과 4학년.
 
 - 🏆 **학술대회 우수논문상** (1저자) — 2025 한국스마트미디어학회·한국전자거래학회 춘계학술대회
-- 📄 **논문 5편** — 1저자 2편 / 영문 국제학술대회 1편 / SW중심대학사업 과제 2편
+- 📄 **1저자 논문 2편** — SW중심대학사업 지원 과제
 - 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
 
 <br>
@@ -126,46 +126,9 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-## 개인 프로젝트
-
-### 🔹 [ksat-gang-code](https://github.com/kyeongmin0212/ksat-gang-code) — 국내주식 백테스팅·추천 시스템
-`2026.03 ~ 05` · Python
-
-투자 기법을 코드로 옮기고 **5년치 데이터로 백테스팅해 검증**한 뒤,
-매일 자동으로 매수 후보를 추려 텔레그램으로 알리는 시스템.
-
-- 백테스트 5년 — **CAGR 52.95 % · 샤프 1.84 · MDD −17.45 % · 승률 76.83 %**
-  (과최적화를 감안해 실전 기대치는 CAGR 25~35 %로 보수 설정)
-- KRX에서 KOSPI·KOSDAQ 전 종목 일봉 수집 → SQLite 약 1.1GB
-- 전략 **v2 → v4 → v5 → v6** 개선, 버전별 성과를 정량 비교
-- **손실 원인 분석** 모듈로 실패 거래를 유형별 분류
-- 유튜브 자막(VTT) 파싱으로 기법을 규칙화하는 파이프라인
-- Streamlit 4페이지 대시보드 — 사후 1/5/10/20일 수익률 + **KOSPI 대비 알파** 추적
-
-`Python` `SQLite` `pandas` `Streamlit` `Plotly` `Telegram Bot API`
-
-<br>
-
-### 🔹 [us-kr-stock-auto-trading](https://github.com/kyeongmin0212/us-kr-stock-auto-trading-v1) — 주식 자동매매 웹
-`2025` · React + Flask + Express
-
-**한국투자증권(KIS) API**를 연동한 미국·국내 주식 자동매매 플랫폼.
-
-- 해외주식(나스닥/USD) 잔고·현재가·차트 조회 및 **주문 전송**, Flask REST API 20개
-- **No-Code 전략 편집기(StrategyBuilder)** — 코드 없이 조건 조합으로 전략 생성
-- **`code_executor`** — 사용자 파이썬 전략을 **AST 파싱으로 검사 후 샌드박스 실행**
-- `PaperTradingManager` — 실계좌 없이 전략 검증하는 모의투자
-
-`React 18` `TypeScript` `Flask` `Express` `MySQL` `Firebase` `Docker` `nginx`
-
-<br>
-
 ## 논문
 
 | 제목 | 저자 | 발표 |
 |---|---|---|
 | 빅데이터 기반 LSTM 예측 모델을 활용한 암호화폐 자동매매 시스템 연구 | **1저자** | 2025 춘계학술대회 · 🏆 **우수논문상** |
 | 빅데이터 기반 시계열 예측을 활용한 주식 자동매매 시스템 연구 | **1저자** | 봄철 종합학술대회 |
-| OpenAI 연동형 자동매매 시스템의 설계 | 2저자 | 스마트미디어 심포지움 |
-| Design of a Digital Twin-Based Metaverse Smart Farm Education System | 공저 | 국제학술대회 (영문) |
-| AI 시대 대학생 경제교육을 위한 빅데이터 기반 암호화폐 매매 시스템 설계 | 공저 | 특별호 게재 |
