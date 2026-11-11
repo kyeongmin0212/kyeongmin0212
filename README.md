@@ -147,7 +147,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 | 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
 | 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
 | 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
-| 4차 | [BookShelf](https://github.com/owlooo/AIVLE_09_m_4th_22) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
+| 4차 | [BookShelf](https://github.com/kyeongmin0212/BookShelf) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
 | 5·6차 | 도서관리시스템 | Spring Boot 백엔드 → **K8S 배포 파이프라인** (본인: OpenAI 연동) |
 
 <br>
