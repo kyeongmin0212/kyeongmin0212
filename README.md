@@ -86,7 +86,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 기능마다 테스트를 동반 작성했습니다 (본인 작성 약 2,800줄).
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `tree-sitter` `Docker` `pytest`
-🔗 [서비스](https://codetrace-frontend.vercel.app)
+🔗 [서비스](https://codetrace.kyeongmin0212.com)
 
 <br>
 
