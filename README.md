@@ -66,7 +66,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-### 🔹 [CodeTrace](https://github.com/CodeTrace-app/codetrace-backend) — 백엔드 담당 (GitHub 연동·이력 수집·LLM 요약·PR 경고 봇)
+### 🔹 [CodeTrace](https://github.com/kyeongmin0212/codetrace-backend) — 백엔드 담당 (GitHub 연동·이력 수집·LLM 요약·PR 경고 봇)
 `멋쟁이사자처럼 대학 14기 해커톤` · 2026.08 (약 2주) · 팀 6인 (백엔드 2명 중 1명)
 
 신입 개발자를 위한 코드 온보딩 도구. 코드가 *왜* 그렇게 작성되었는지와
@@ -90,7 +90,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-### 🔹 [AI's Eye](https://github.com/aivle-b-t24/ai-s-eye) — AICC 모듈 담당
+### 🔹 [AI's Eye](https://github.com/kyeongmin0212/ai-s-eye) — AICC 모듈 담당
 `KT AIVLE School 9기 AI트랙 빅프로젝트` · 2026.07~08 · 팀 5인
 
 매장 CCTV 영상과 주문 정보로 매장 상황을 분석하는 B2B 서비스.
