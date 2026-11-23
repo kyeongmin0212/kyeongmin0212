@@ -1,9 +1,11 @@
+[Uploading 프로필 README (2026-11-11)_보완7.md…]()
 # 노경민 (Kyeongmin Noh)
 
 **AI 서비스 백엔드 개발자** · 컴퓨터공학과 4학년
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
+- 🏆 **IBM AI Academy 6기 해커톤 대상** — watsonx 실무교육 해커톤, 4인 팀 Golden Wing
 - 🏆 **SUMTECH Hackathon 2026 최우수상** (조선대학교 총장상) — SW중심대학 연합 해커톤, 10개 대학 20팀 중 상위 3팀
 - 🏆 **학술대회 우수논문상** (1저자) — 2025 한국스마트미디어학회·한국전자거래학회 춘계학술대회
 - 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
@@ -18,6 +20,7 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Vertex_AI_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![IBM watsonx](https://img.shields.io/badge/IBM_watsonx_Orchestrate-0F62FE?style=flat-square&logo=ibm&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 
 **Backend**
@@ -45,9 +48,26 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
 <br>
 
-## 팀 프로젝트
+## 프로젝트
 
-> 팀으로 진행한 프로젝트라 아래에 담당 범위를 함께 적었습니다.
+> 교육 과정·해커톤·교내 연구에서 팀으로 만든 서비스입니다. 각 프로젝트에 맡은 범위를 함께 적었습니다.
+
+### 🔹 Golden Wing — IBM AI Academy 6기 해커톤 대상
+`IBM AI Academy 6기 (watsonx 실무교육) 해커톤` · 2026.11 · 팀 4인
+
+드론이 소방차보다 먼저 출동 경로를 정찰하면 우회로와 진로 방해 차량 통보 초안을 만들어 주는
+AI 에이전트 서비스. 해커톤에서 대상(1위)을 받았습니다.
+**watsonx Orchestrate 감독·협업 에이전트와 Python 도구를 Next.js 대시보드에 연동하는 일을 담당**했습니다.
+
+- **감독·협업 에이전트** — 총괄 에이전트가 경로·투입 판단, 선행 유도, 비전 탐지, 원클릭 신고 에이전트에 일을 나눔
+- **문서 기반 RAG** — 법령·운용 절차 문서를 지식으로 연결하고, 문서에 없는 내용은 없다고 답함
+- **판단은 사람에게** — 통보는 초안까지만 만들고, 실제 통보는 관제요원이 검토한 뒤 진행
+
+저장소는 비공개입니다.
+
+`watsonx Orchestrate` `RAG` `Python` `Next.js` `Docker`
+
+<br>
 
 ### 🔹 [나도으른](https://github.com/kyeongmin0212/nado-eoreun) — SUMTECH Hackathon 2026 최우수상
 `SW중심대학 연합 해커톤 (무박 2일)` · 2026.10 · 팀 5인
@@ -123,32 +143,6 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 공개 저장소는 기본 구조이며, 실제 종목 선정 기준과 매수 판단 로직은 포함하지 않았습니다.
 
 `Python` `TensorFlow/Keras` `PyUpbit` `Telegram Bot API`
-
-<br>
-
-## 교육 과정
-
-### 🔹 [LKELION-Code](https://github.com/kyeongmin0212/LKELION-Code) — Java 백엔드 PBL (Mission 00~10)
-`멋쟁이사자처럼 대학 14기` · 2026.04~07 · 커밋 28건 · PR 9건
-
-객체지향 → **IoC/DI 직접 구현** → Spring Boot 전환 → REST API → JPA →
-연관관계·트랜잭션 → 전역 예외 처리·FE 연동까지 단계적으로 수행.
-미션마다 브랜치를 파고 PR로 머지했습니다.
-
-`Java` `Spring Boot` `JPA` `Maven`
-
-<br>
-
-### 🔹 KT AIVLE School 미니프로젝트 1~6차
-`2026.04~06` · 분석형 AI → 생성형 AI → 서비스 개발 → 클라우드
-
-| 차수 | 프로젝트 | 핵심 |
-|---|---|---|
-| 1차 | 고객 만족도 예측 (**조장**) | 전처리 함수화 · 다지표 비교 후 미세조정 모델 채택 |
-| 2차 | **AI 강사 Agent** | LangGraph 10노드 · PPT → 강의 영상 자동 생성 (멀티모달 LLM · TTS · SRT · FFmpeg) |
-| 3차 | **리뷰 분석 AI** | LangSmith 파이프라인 모니터링 · ABSA 속성별 감성 분석 |
-| 4차 | [BookShelf](https://github.com/kyeongmin0212/BookShelf) | OpenAI 이미지 생성·자동 태깅 · 프론트 UI 담당 (9커밋) |
-| 5·6차 | 도서관리시스템 | Spring Boot 백엔드 → **K8S 배포 파이프라인** (본인: OpenAI 연동) |
 
 <br>
 
