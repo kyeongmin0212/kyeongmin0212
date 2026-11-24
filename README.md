@@ -1,4 +1,4 @@
-[프로필 README (2026-11-11)_보완10.md](https://github.com/user-attachments/files/35310586/README.2026-11-11._.10.md)
+[프로필 README (2026-11-11)_보완11.md](https://github.com/user-attachments/files/35310962/README.2026-11-11._.11.md)
 # 노경민 (Kyeongmin Noh)
 
 **AI 서비스 백엔드 개발자** · 컴퓨터공학과 4학년
@@ -64,6 +64,7 @@ AI 에이전트 서비스.
 - **판단은 사람에게** — 통보는 초안까지만 만들고, 실제 통보는 관제요원이 검토한 뒤 진행
 
 `watsonx Orchestrate` `RAG` `Python` `Next.js` `Docker`
+🔗 [서비스](https://goldenwing.kyeongmin0212.com)
 
 <br>
 
@@ -81,6 +82,7 @@ AI 에이전트 서비스.
 노트북 한 대로 팀원과 함께 개발해 커밋 기록은 팀원 계정에 있고, 이 저장소는 최종 코드를 옮겨 둔 것입니다.
 
 `Next.js` `TypeScript` `Supabase` `OpenAI Image API` `Web Push` `PWA`
+🔗 [서비스](https://nado.kyeongmin0212.com)
 
 <br>
 
@@ -122,6 +124,7 @@ AI 에이전트 서비스.
 - **상권 분석** — SGIS 연동으로 혼잡 원인 추정
 
 `FastAPI` `Vertex AI (Gemini)` `RAG` `PostgreSQL` `Docker` `GCP`
+🔗 [서비스](https://aiseye.kyeongmin0212.com)
 
 <br>
 
