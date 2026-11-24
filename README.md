@@ -5,7 +5,7 @@
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
-- 🏆 **IBM AI Academy 6기 해커톤 대상(1위)** — SW중심대학사업단 · IBM, 4인 팀 Golden Wing
+- 🏆 **IBM AI Academy 6기 해커톤 대상(1위)** — SW중심대학사업단 · IBM, 4인 팀 Golden Wing 119
 - 🏆 **SUMTECH Hackathon 2026 최우수상(20팀 중 공동 2위)** — 조선대학교 총장상, SW중심대학 연합 해커톤
 - 🏆 **2025 춘계학술대회 우수논문상 (1저자)** — 한국스마트미디어학회·한국전자거래학회
 - 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
