@@ -1,15 +1,16 @@
-[프로필 README (2026-11-11)_보완11.md](https://github.com/user-attachments/files/35310962/README.2026-11-11._.11.md)
+[프로필 README (2026-11-11)_보완12.md](https://github.com/user-attachments/files/35311151/README.2026-11-11._.12.md)
 # 노경민 (Kyeongmin Noh)
 
 **AI 서비스 백엔드 개발자** · 컴퓨터공학과 4학년
 
 AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 
-- 🏆 **IBM AI Academy 6기 해커톤 대상(1위)** — SW중심대학사업단 · IBM, 4인 팀 Golden Wing 119
+📫 [abc712969@gmail.com](mailto:abc712969@gmail.com)
+
+- 🏆 **IBM AI Academy 6기 해커톤 대상(1위)** — SW중심대학사업단 · IBM, 4인 팀 Golden Wing
 - 🏆 **SUMTECH Hackathon 2026 최우수상(20팀 중 공동 2위)** — 조선대학교 총장상, SW중심대학 연합 해커톤
-- 🏆 **2025 춘계학술대회 우수논문상 (1저자)** — 한국스마트미디어학회·한국전자거래학회
+- 🏆 **2025 춘계학술대회 우수논문상 (1저자)** — 한국스마트미디어학회·한국전자거래학회 (1저자 논문 2편 중 1편)
 - 🤖 **LLM 애플리케이션** — LangGraph · RAG · Tool Calling · 환각 방지 · 레이트리밋 대응
-- 📄 **1저자 논문 2편** 
 
 
 <br>
@@ -26,24 +27,19 @@ AI를 **실제 동작하는 서비스**로 만드는 데 관심이 있습니다.
 **Backend**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 
 **Frontend**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 
 **DevOps · Cloud**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 <br>
@@ -69,7 +65,7 @@ AI 에이전트 서비스.
 <br>
 
 ### 🔹 [나도으른](https://github.com/kyeongmin0212/nado-eoreun) — SUMTECH Hackathon 2026 최우수상(20팀 중 공동 2위)
-`SW중심대학 연합 해커톤` · 2026.10.29~10.30 · 팀 5인
+`SW중심대학 연합 해커톤 (무박 2일)` · 2026.10.29~10.30 · 팀 5인
 
 부모와 함께 사는 성인이 외출 확인 연락을 받았을 때, 보여 줄 사진을 준비하고
 친구에게 도움을 요청할 수 있게 돕는 모바일 PWA.
@@ -86,24 +82,19 @@ AI 에이전트 서비스.
 
 <br>
 
-### 🔹 [CodeTrace](https://github.com/kyeongmin0212/codetrace-backend) — 백엔드 담당 (GitHub 연동·이력 수집·LLM 요약·PR 경고 봇)
-`멋쟁이사자처럼 대학 14기 해커톤 Open Track 본선 진출(324팀 참가)` · 2026.08.10~08.25 · 팀 6인 (백엔드 2명 중 1명)
+### 🔹 [CodeTrace](https://github.com/kyeongmin0212/codetrace-backend) — Open Track 본선 진출(324팀 참가)
+`멋쟁이사자처럼 대학 14기 해커톤` · 2026.08.10~08.25 · 팀 6인 (백엔드 2명 중 1명)
 
-신입 개발자를 위한 코드 온보딩 도구. 코드가 *왜* 그렇게 작성되었는지와
-*수정 시 영향 범위*를 보여줍니다. — PR 8건 / +5,842 · −129
+신입 개발자를 위한 코드 온보딩 도구로, 코드가 *왜* 그렇게 작성되었는지와
+*수정 시 영향 범위*를 보여 줍니다.
+**백엔드에서 GitHub 연동·이력 수집·LLM 요약·PR 경고 봇을 담당**했습니다. — PR 8건 / +5,842 · −129
 
-| PR | 기능 |
-|---|---|
-| #36 | GitHub App 인증 연동 (RS256 JWT) |
-| #37 | 레포 등록·재인덱싱·대시보드 API |
-| #38 | 커밋·PR 이력 수집 + 심볼 근거 연결 |
-| #44 | LLM 배경 요약 + 맥락 API |
-| #45 | 요약 진행률 보정 — 중간에 멈추면 처리한 곳까지만 반영 |
-| #57 | PR 웹훅 + 경고 코멘트 봇 |
-| #58 | 질의 이력 조회 + 90일 보존 정책 |
-| #65 | PR 경고 표시 개선 — 내부 식별자 대신 파일·행으로 표시 |
-
-기능마다 테스트를 동반 작성했습니다 (본인 작성 약 2,800줄).
+- **GitHub App 연동** — RS256 JWT 인증, 레포 등록·재인덱싱·대시보드 API (#36·#37)
+- **이력 수집·근거 연결** — 커밋·PR 이력을 모아 코드 심볼과 연결 (#38)
+- **LLM 배경 요약** — 코드의 작성 배경을 요약하는 맥락 API, 중간에 멈추면 처리한 곳까지만 반영 (#44·#45)
+- **PR 경고 봇** — PR 웹훅으로 영향 범위 경고 코멘트, 내부 식별자 대신 파일·행으로 표시 (#57·#65)
+- **질의 이력·보존** — 질의 이력 조회와 90일 보존 정책 (#58)
+- **테스트** — 기능마다 테스트를 함께 작성 (본인 작성 약 2,800줄)
 
 `FastAPI` `PostgreSQL` `SQLAlchemy` `tree-sitter` `Docker` `pytest`
 🔗 [서비스](https://codetrace.kyeongmin0212.com)
@@ -144,6 +135,17 @@ AI 에이전트 서비스.
 공개 저장소는 기본 구조이며, 실제 종목 선정 기준과 매수 판단 로직은 포함하지 않았습니다.
 
 `Python` `TensorFlow/Keras` `PyUpbit` `Telegram Bot API`
+
+<br>
+
+## 교육·활동
+
+| 기간 | 활동 | 내용 |
+|---|---|---|
+| 2026.11 | **IBM AI Academy 6기** | watsonx로 AI 에이전트 서비스 만들기 — RAG·Orchestrate 실습, 해커톤 대상(1위) |
+| 2026.04 ~ 2026.11 | **멋쟁이사자처럼 대학 14기** | Java·Spring Boot 백엔드 미션 11개(IoC/DI, REST API, JPA), 해커톤 Open Track 본선 진출 |
+| 2026.03 ~ 2026.09 | **KT AIVLE School 9기** (840시간 수료) | LLM·LangChain·LangGraph Agent·RAG, 미니프로젝트 6회, 빅프로젝트 AI's Eye |
+| 2024.03 ~ 2026.12 | **실감멀티미디어 연구실** 학부연구생 | 수배전반 열화상 부품 검출 모델 프로젝트 참여(데이터 라벨링, 격주 세미나) |
 
 <br>
 
